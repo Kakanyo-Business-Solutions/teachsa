@@ -1,0 +1,541 @@
+/* COMMON CSS */
+#our_causes .cause-tabs a.nav-link{
+  color: #47445f;
+}
+/*.slide_btn a:hover,#slider .slider-box h2,#slider .carousel-control-next-icon,#slider .carousel-control-prev-icon,.slider-box h6,.service-box:hover i,.service-box:hover .service_btn a,#about h3.about-main,#features i.care-icon,#features h4.feature-inner-head,#features p.feature-inner-text,#quotes h3.quotes-main,#testimonials h5.client-name1,#testimonials h5.client-name2,.search-icon i,.dots-icon i,.topbar-call-title h6,.topbar-call-text p,.about-box h5,.abou_btn a,#brands h3,#brands p,#brands button.owl-prev, #brands button.owl-next,#counter h4,#counter h5,.box-content a:hover,.box-content a,.date-month a,.volunteer-box a:hover,.abou_btn a:hover,.volunteer-slider-box h5,.projects-box h4,.project_btn a,.project_btn a:hover,#slider .slider-box p,.box-content p,.topbar_section p,.topbar_section span,.logo h1 a,.logo p,#footer h3,#footer ul li a,.widget_calendar tbody a:hover,.widget_calendar tbody a:focus,.widget_calendar tbody a,#footer .widget.widget_calendar td, #footer .widget.widget_calendar tr, #footer .widget.widget_calendar th,.widget_calendar caption,.copyright p,#footer,#return-to-top:hover i,#sidebar .tagcloud a:hover,.site-footer .tagcloud a:hover,#sidebar input[type="submit"],.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button,.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover,.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.volunteer_btn a:hover,.career_btn a:hover,.volunteer_btn a,.career_btn a,#counter button.owl-prev, #counter button.owl-next { 
+  
+}*/
+/*#slider .carousel-indicators li.active,#slider span.carousel-control-next-icon:hover,#slider span.carousel-control-prev-icon:hover,.slide_btn a,.service-box:hover,.abou_btn a,#brands,#testimonials button.owl-dot.active,#counter,#team button.owl-dot.active,.box-content h4:hover,.date-month,#latest_news button.owl-dot.active,#volunteer button.owl-dot.active,.project_btn a,.main-navigation li:after,.widget_calendar tbody a:hover,.widget_calendar tbody a:focus,.widget_calendar tbody a,#return-to-top,#sidebar .tagcloud a:hover,.site-footer .tagcloud a:hover,#sidebar input[type="submit"],.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,nav.woocommerce-MyAccount-navigation ul li,.volunteer_btn a,.career_btn a,#company_info button.owl-dot.active{
+  background: #fe878d;
+}*/
+#our_causes .cause-tabs a.nav-link:hover,a.nav-link.hvr-shrink.active,.volunteer-form,section#education_donate .educate-bg,#latest_news button.owl-dot.active,#return-to-top,.load :first-child,.load :nth-child(2),.load :nth-child(3),.load :last-child,section#service button.owl-dot.active{
+  background-image: linear-gradient(to right, #D7192B, #D7192B);
+  }
+.slider-box h4,h4.service-inner-head,#about h5.abt-inner-head,p.lit-small-head,.event-box .inner-info a:hover,.cause-inner-main .inner-info a:hover,.lower-new-box h5:hover,h5.lit-inner-main-head:hover,.lower-new-box .row.share a:hover,span.entry-author a:hover,.topbar-spacing span:hover{
+   background: linear-gradient(to right, #D7192B , #D7192B); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* SLIDER */
+
+#slider .slide_nav {
+    display: none;
+}
+#slider img {
+  width: 100%;
+}
+.slide_next_image img{
+  width: auto !important;
+  height: 100%;
+}
+#slider .slider-box h2 {
+  font-size: 42px;
+}
+.slide_btn i,.service_btn i,.cause_btn i,.testimonials_btn i,.about_btn i,#latest_news .datebox i{
+    color: #ff94b3;
+    font-size: 16px;
+}
+.head_btn a,.slide_btn a,.service_btn a,.cause_btn a,.cause_outer_btn a,.literacy_outer_btn a,.scholarship_btn a,.testimonials_btn a.testi-vol-btn,.about_btn a.abt-join-btn,#latest_news .datebox,.our_work_btn a,div#single_post .datebox,#comments input[type="submit"].submit {
+    background-image: linear-gradient(to right, #D7192B, #D7192B);
+    border-radius: 50px;
+    color: #ffffff;
+    box-shadow:none;
+    transition: all 0.40s ease;
+    -webkit-transition: all 0.40s ease;
+    -moz-transition: all 0.40s ease;
+    -ms-transition: all 0.40s ease;
+    -o-transition: all 0.40s ease;
+  }
+  .head_btn a:hover,.slide_btn a:hover,.service_btn a:hover,.cause_btn a:hover,.cause_outer_btn a:hover,.literacy_outer_btn a:hover,.scholarship_btn a:hover,.testimonials_btn a.testi-vol-btn:hover,.about_btn a.abt-join-btn:hover,.our_work_btn a:hover,#comments input[type="submit"].submit:hover{
+    color: #D7192B;
+    box-shadow: 0 0 10px 0 #D7192B inset, 0 0 10px 4px #D7192B;
+     background: transparent; 
+}
+a.popup-youtube:hover {
+	 color: #ffffff;
+    box-shadow: 0 0 10px 0 #D7192B inset, 0 0 10px 4px #D7192B;
+}
+.testimonials_btn a.testi-vol-btn:hover {
+	margin-left: 2% !important;
+}
+div#single_post .datebox,#comments input[type="submit"].submit,.our_work_btn a{
+  padding: 10px 18px;  
+}
+div#single_post .datebox:hover{
+  box-shadow: 0 0 10px 0 #D7192B inset, 0 0 10px 2px #D7192B;   
+}
+#slider ol.carousel-indicators {
+    display: none;
+}
+#slider .slider-box h4 {
+    letter-spacing: 3px;
+}
+#slider .slider-box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 58%;
+}
+#slider .carousel-caption {
+  top: 0;
+  bottom: inherit;
+  text-align: left;
+  left: 0;
+  right: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  bottom: 0;
+}
+
+/* SERVICES */
+section#service,section#map,section#testimonials,section#latest_news{
+    background: #f6f5ff;
+}
+.service-inner {
+    background: #ffffff;
+    border-radius: 15px;
+    position: relative;
+    z-index: 999;
+}
+.service-box-top:before {
+    content: "";
+    background-image: linear-gradient(to right, #D7192B, #D7192B);
+    position: absolute;
+    height: 10%;
+    width: 80%;    
+    right: 10%;
+    bottom: 90%;
+    border-radius: 20px;    
+}
+.service-box-top:after {
+    content: "";
+    background-image: linear-gradient(to right, #D7192B, #D7192B);
+    position: absolute;
+    height: 10%;
+    width: 80%;   
+    right: 10%;
+    top: 90%;
+    border-radius: 20px;    
+}
+.service-box-top h4 {
+  font-size: 40px;
+}
+img.ser-img {
+    width: 35% !important;
+}
+p.service-inner-text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #47445f;
+    font-weight: 600;
+}
+.serv-head {
+    transform: translateY(50%);
+}
+/*our-causes*/
+p.cause-small {
+    font-size: 16px;
+    width: 50%;
+}
+.cause-head hr.first,.map-head hr.first,.scholar-head hr.first,#brands hr.first,#latest_news hr.first,#our_events hr.first,.literacy-head hr.first,.our_work-head hr.first,.contact-info hr.first,div#main-sec hr.first{
+    border-top: 2px solid #D7192B;
+    width: 10%;
+}
+.cause-head hr.second,.map-head hr.second,.scholar-head hr.second,#brands hr.second,#latest_news hr.second,#our_events hr.second,.literacy-head hr.second,.our_work-head hr.second,.contact-info hr.second,div#main-sec hr.second{
+    border-top: 2px solid #D7192B;
+    width: 7%;
+}
+.causes-box,.event-box,.literacy-box {
+    box-shadow: 0 4px 4px 2px #eee;
+    border-radius: 10px;
+}
+.cause-tabs {
+    width: 40%;
+}
+#our_causes .cause-tabs a.nav-link:hover, a.nav-link.hvr-shrink.active {
+    color: #ffffff !important;
+}
+.cause-tabs li.nav-item {
+    display: inline-block;
+}
+.cause-tabs ul {
+    background: #f6f5ff;
+    border-radius: 50px;
+    border: 2px solid #eae9f8;
+}
+#our_causes .cause-tabs a.nav-link {
+    color: #47445f;
+    border-radius: 50px;
+    padding: 5px 15px;
+    margin: 5px 0px;
+}
+.inner-info a.cause-inner-head,h5.lit-inner-main-head {
+    font-size: 18px;
+    font-weight: 700;
+}
+.cause-inner-main {
+    display: inline-block;
+    position: relative;
+}
+.row.raise-bar {
+    margin-top: -1em;
+    background-color: white !important;
+    border-radius: 50px;
+    width: 100%;
+    box-shadow: 0 4px 4px 2px #eee;
+}
+.row.raise-bar span {
+    color: #D7192B;
+}
+p.lit-small-head{
+  font-size: 14px;
+}
+.row.raise-bar p,p.lit-small-head{
+    font-weight: 600;
+}
+.goal-part {
+    border-right: 1px solid #eee;
+}
+.progress {
+  height: 5px;
+  width: 90%;
+}
+.progress-bar {
+background: -webkit-linear-gradient(left, #D7192B 0%,#D7192B 100%); /* Chrome10-25,Safari5.1-6 */
+}
+.progress-bar span {
+    color: #47445f;
+    position: absolute;
+    right: 12px;
+    top: 15%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*MAP*/
+
+p.map-text {
+    width: 50%;
+}
+.volunteer-form input[type="text"],.volunteer-form input[type="tel"],.volunteer-form input[type="email"]{    font-size: 12px;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 5px;  
+    border: 1px solid #eee; 
+    background: transparent;    
+    color: #ffffff !important;
+    width: 100%;
+}
+.volunteer-form input[type="text"]::placeholder,.volunteer-form input[type="tel"]::placeholder,.volunteer-form input[type="email"]::placeholder {
+	color: #fff;
+}
+#map h3.inner-head,#map p.inner-text,.datebox a {
+    color: #ffffff;
+}
+#map h3.inner-head:hover ,#map p.inner-text:hover,.datebox a:hover {
+    color: #ffffff;
+    -webkit-text-fill-color: white;
+}
+#map input.wpcf7-form-control.wpcf7-submit.vol-btn {
+    background: #fff;
+    width: 90%;
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    color: #D7192B;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 100%;
+
+}
+input.wpcf7-form-control.wpcf7-text.vol-cv {
+    width: 100%;
+}
+select.wpcf7-form-control.wpcf7-select.vol-country {
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    width: 100%;
+}
+select.wpcf7-form-control.wpcf7-select.vol-country option {
+    color: #47445f;
+}
+.volunteer-form {
+    border-radius: 10px;
+}
+/*Scholarship*/
+
+section#scholarship {
+    background-size: cover;
+}
+/*Make donation*/
+.make-img-box img {
+    border-radius: 10px 0px 0px 10px;
+}
+.make-don-bgimage {
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p.make-para {
+    font-size: 15px;
+}
+h3.make-main, p.make-para {
+    color: #ffffff;
+}
+.make_donation_btn a {
+    background: #ffffff;
+    font-size: 14px;
+    padding: 10px 100px;
+    border-radius: 5px;
+    color: #D7192B;
+}
+.make_donation_btn i{
+    color: #fe5649;
+}
+.make_donation_btn a:hover{
+    color: #47445f;
+    -webkit-text-fill-color: unset;
+    box-shadow: 0 0 10px 0 #D7192B inset, 0 0 10px 2px #D7192B;
+}
+
+
+/*Brands*/
+#brands .row.shift {
+    position: relative;
+    left: 7%;
+}
+#brands .brand_content img {
+    width: 70%;
+}
+/*education donate*/
+#education_donate h2.edu-head {
+    font-size: 20px;
+    color: #ffffff;
+}
+.educate-bg {
+    border-radius: 15px;
+}
+section#education_donate {
+    position: relative;
+    top: 90px;
+}
+.education_donate_btn {
+    background: #21211f;
+    width: 20%;
+    border-radius: 10px;
+}
+.education_donate_btn a {
+    color: #ffffff;
+}
+.education_donate_btn i{
+  color: #D7192B;
+}
+/*testimonials*/
+.testi-img img {
+    width: 70% !important;
+}
+h5.testi-det {
+    font-size: 18px;
+    font-weight: 500;
+}
+h5.testi-det span {
+    color: #D7192B;
+}
+.testi-info-box p.para {
+    width: 90%;
+}
+.testi-info-box {
+    background: #fff;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-image: linear-gradient(to right, #D7192B, #D7192B) 1;
+    position: relative;
+}
+.testi-info-box i {
+    position: absolute;
+    left: 87%;
+    top: 8%;
+    font-size: 50px;
+    color: #f2f3ff;
+}
+.testimonials_btn a.testi-cont-btn,.about_btn a.abt-donate-btn {
+    background: #47435f;
+    color: #ffffff;
+    border-radius: 50px;
+    box-shadow:none;
+    transition: all 0.40s ease;
+    -webkit-transition: all 0.40s ease;
+    -moz-transition: all 0.40s ease;
+    -ms-transition: all 0.40s ease;
+    -o-transition: all 0.40s ease;
+}
+.testimonials_btn a.testi-cont-btn:hover, .about_btn a.abt-donate-btn:hover{
+    color: #47435f;
+    box-shadow: 0 0 10px 0 #47435f inset, 0 0 10px 4px #47435f;
+    background: transparent;
+}
+/*About*/
+#about hr.first{
+  border-top: 2px solid #D7192B;
+  width: 22%;
+}
+#about hr.second{
+  border-top: 2px solid #D7192B;
+  width: 15%;
+}
+ul.abt-under {
+    list-style: none;
+}
+h6.list-item1 i {
+    font-size: 14px;
+    color: #D7192B;
+}
+h5.abt-inner-head {
+    font-size: 18px;
+}
+/*LATEST NEWS*/
+#latest_news .datebox {
+    position: absolute;
+    top: 44%;
+    left: 7%;
+}
+#latest_news .news-box{
+  position: relative;
+}
+.lower-new-box span.entry-author,.lower-new-box span.entry-comments {
+    display: none;
+}
+.lower-new-box h5 {
+    font-size: 18px;
+    line-height: 28px;
+}
+.lower-new-box p {
+    line-height: 24px;
+}
+.lower-new-box {
+    background: #ffffff;
+}
+.lower-new-box img.avatar.avatar-40.photo {
+    border-radius: 50%;
+}
+.lower-new-box .row.share,#our_events .bottom-add,.literacy-box .row.hour {
+    border-top: 1px solid #e2e0f0;
+}
+#latest_news .owl-dots,section#service .owl-dots {
+    display: block;
+    text-align: center;
+}
+#latest_news button.owl-dot,section#service button.owl-dot {
+    border-radius: 10px;
+    padding: 5px;
+    background: #aeaad5;
+    border: none;
+    margin: 5px;
+}
+/*Our Events*/
+.event-datebox a {
+    font-size: 14px;
+    color: #63646d;
+    font-weight: 600;
+}
+#our_events .inner-info i,.lit-bottom-time i,i.contactpage-phone-icon,i.contactpage-email-icon,i.contactpage-add-icon,.toggle-nav i{
+    background: linear-gradient(to right, #D7192B , #D7192B);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+}
+a.event-inner-head {
+    font-size: 18px;
+    font-weight: 600;
+}
+.event-time span{
+  font-weight: 600;
+  font-size: 14px;
+}
+#our_events .owl-nav {
+    display: block !important;
+}
+#our_events button.owl-next{
+    position: absolute;
+    bottom: 200px;
+    left: 104%;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 17px;
+}
+#our_events button.owl-prev{
+    position: absolute;
+    bottom: 200px;
+    right: 104%;
+    border: none;
+    padding: 10px 17px;
+    border-radius: 50%;
+}
+#our_events button.owl-prev:hover,#our_events button.owl-next:hover{
+    background-image: linear-gradient(to right, #D7192B, #D7192B);
+}
+#our_events button.owl-prev:hover i,#our_events button.owl-next:hover i{
+  color: #ffffff;
+}
+/*literacy PROGRAM*/
+
+.literacy-box {
+    position: relative;
+}
+.literacy-box span.custom-field {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    background: #47435f;
+    font-size: 14px;
+    font-weight: 600;
+}
+.lit-bottom-rating i.first,.lit-bottom-rating i.second,.lit-bottom-rating i.third{
+    color: #ecaf1f;
+}
+.lit-bottom-rating i.fourth,.lit-bottom-rating i.fifth{
+    color: #c7c7c7;
+}
+/*our work*/
+.our-work-video{
+  position: relative;
+}
+.our_work_btn{
+  position: absolute;
+  right: 45%;
+  top: 45%;
+}
+.work-video-img-box img {
+    width: 60%;
+}
+a.popup-youtube i {
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #D7192B, #D7192B);
+    padding: 16px;
+    box-shadow: 0 0px 10px 4px #eee;
+}
+a.popup-youtube {
+    background-image: linear-gradient(to right, #D7192B, #D7192B);
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 12px 15px 12px 0px;
+    box-shadow: 0 0px 10px 4px #eee;
+    position: relative;
+    bottom: 220px;
+    left: 42%;
+  }
+  section#our_work {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
