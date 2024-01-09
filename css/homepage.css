@@ -91,7 +91,7 @@ div#single_post .datebox:hover{
 
 /* SERVICES */
 section#service,section#map,section#testimonials,section#latest_news{
-    background: #f6f5ff;
+    background: #dddddd;
 }
 .service-inner {
     background: #ffffff;
@@ -161,12 +161,12 @@ p.cause-small {
     display: inline-block;
 }
 .cause-tabs ul {
-    background: #f6f5ff;
+    background: #dddddd;
     border-radius: 50px;
     border: 2px solid #eae9f8;
 }
 #our_causes .cause-tabs a.nav-link {
-    color: #47445f;
+    color: black;
     border-radius: 50px;
     padding: 5px 15px;
     margin: 5px 0px;
@@ -339,7 +339,8 @@ section#education_donate {
 }
 /*testimonials*/
 .testi-img img {
-    width: 70% !important;
+    width: 100%;
+    height: 400px;
 }
 h5.testi-det {
     font-size: 18px;
@@ -436,7 +437,7 @@ h5.abt-inner-head {
 #latest_news button.owl-dot,section#service button.owl-dot {
     border-radius: 10px;
     padding: 5px;
-    background: #aeaad5;
+    background: #dddddd;
     border: none;
     margin: 5px;
 }
@@ -497,7 +498,7 @@ a.event-inner-head {
     left: 20px;
     color: #ffffff;
     border-radius: 5px;
-    background: #47435f;
+    background: #dddddd;
     font-size: 14px;
     font-weight: 600;
 }

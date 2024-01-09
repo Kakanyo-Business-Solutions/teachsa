@@ -6,7 +6,7 @@
 html body{
   background-color:#fff;
   font-size: 15px;
-  color: #47445f;
+  color: black;
   font-family: 'Inter', sans-serif;
 }
 label {
@@ -31,7 +31,7 @@ h6{
   font-family: 'Inter', serif;
   margin:0;
   padding:10px 0;
-  color:#47445f;
+  color:black;
   font-weight: bold;
 }
 p{
@@ -39,14 +39,14 @@ p{
   padding:0;
   font-size:16px;
   font-weight:400;
-  color: #63646d;
+  color: black;
 }
 p, ul li a{
   letter-spacing: 0px;
 }
 body a{
   text-decoration:none; 
-  color:#47445f;
+  color:black;
   font-weight: 600;
 }
 a:hover{
@@ -218,7 +218,7 @@ input.search-submit {
 .contac_form .wpcf7 .wpcf7-form-control-wrap[class*="file-"] {
   background-color:transparent;
   border-color: #ccc;
-  color: #2f3357;
+  color: black;
   border-radius: 0px;
   box-shadow: none;
   border:2px solid #cccccc;
@@ -275,7 +275,7 @@ a.page-numbers{
   background-image: linear-gradient(to right, #D7192B, #D7192B);
 }
 .navigation span.page-numbers.current{
-  background-color: #ffffff;
+  background-color: grey;
   border: 1px solid #D7192B;
   color: #000000 !important;
   padding: 10px !important;
@@ -532,7 +532,7 @@ div#full-width-blog.datebox {
 /* SITE LOADER */
 
 .preloader {
-  background: #fff0e9;
+  background: #dddddd;
   display: flex;
   height: 100%;
   width: 100%;

@@ -19,7 +19,7 @@ div#mySidenav {
   transform: rotate(-45deg);
 }
   .social-i-detail i{
-    color: #63636d;
+    color: black;
     font-size: 16px;
   }
 .head_btn i {
@@ -77,7 +77,7 @@ ul.list_nav {
 .main-navigation a{
   display: block;
   font-size: 16px;
-  color: #4a4f55;
+  color: black;
   font-weight: 600;
   padding: 5px 15px;
 }
@@ -152,11 +152,11 @@ ul.children li a {
 
 /*---------------- Footer Section ----------------------*/
 div#footer_box {
-    background: #343246;
+    background: #002147;
     padding-top: 10%;
 }
 .footer1 p,.footer-social-icons .socialbox a,.footer2 a,.footer3 a,.menu-information-link-3-container a,.copyright p {
-    color: #bab8c4;
+    color: white;
     font-size: 15px;
     font-weight: 700;
 }
