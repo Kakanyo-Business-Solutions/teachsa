@@ -549,6 +549,62 @@
     }
   </style>
 
+<style>
+  .team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  background: #fff;
+  }
+  
+  .team .member img {
+  max-width: 60%;
+  border-radius: 50%;
+  margin-left: 50px;
+  }
+  
+  .team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  }
+  
+  .team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  }
+  
+  .team .member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+  }
+  
+  .team .member .social {
+  margin-top: 15px;
+  }
+  
+  .team .member .social a {
+  color: #919191;
+  transition: 0.3s;
+  }
+  
+  .team .member .social a:hover {
+  color: #cc1616;
+  }
+  
+  .team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+  }
+
+  </style>
+
+</head>
+
 </head>
 
 <body
@@ -636,11 +692,10 @@
                             <li id="menu-item-68"
                               class="about-us menu-item menu-item-type-custom menu-item-object-custom menu-item-68"><a
                                 href="alumni.html">Alumni</a></li>
-                            <li id="menu-item-76"
+                           <!--  <li id="menu-item-76"
                               class="missions menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-76">
                               <a href="https://medium.com/teach-south-africa">News & Blog</a>
-
-                            </li>
+                            </li> -->
                             <li id="menu-item-67"
                               class="contact menu-item menu-item-type-custom menu-item-object-custom menu-item-67"><a
                                 href="contact.html">Contact</a></li>
@@ -673,93 +728,67 @@
     </div>
   </header>
 
-  <section id="latest_news" class="py-0" style="background-color: #002147;">
-    <div class="container">
-      <h3 class="text-center" style="color: white;">Our Team</h3>
-      <hr class="first my-1 mx-auto">
-      <hr class="second my-1 mx-auto">
-      <p class="text-center w-50 my-0 mx-auto para" style="color: white;">Meet the TEACH South Africa Team</p>
-      <div class="owl-carousel">
-        <div class="news-box my-4 text-center text-lg-left text-md-left">
-          <div class="img-box">
-            <img width="370" height="230"
-              src="https://8e16577f943c7b807b14-endpoint.azureedge.net/wpblob6cd46a522a/wp-content/uploads/2023/11/Picture40.jpg"
-              alt="Sedibeng Ngubane" />
-          </div>
-          <div class="lower-new-box px-4 pt-3" style=" background-color: gray;">
-            <h5 class="post-title text-left"><a href="https://www.linkedin.com/in/sedibeng-ngubane-1a683aa1/"><span
-                  style="color:#D7192B">Sedibeng Ngubane</span> </a></h5>
-            <p>Chief Executive Officer</p>
-            <div class="row share pt-2">
-            </div>
-          </div>
-        </div>
-        <div class="news-box my-4 text-center text-lg-left text-md-left">
-          <div class="img-box">
-            <img width="370" height="230"
-              src="https://8e16577f943c7b807b14-endpoint.azureedge.net/wpblob6cd46a522a/wp-content/uploads/2023/11/Picture41.jpg"
-              alt="Modisana Mosiuoa" />
-          </div>
-          <div class="lower-new-box px-4 pt-3" style=" background-color: gray;">
-            <h5 class="post-title text-left"><a href="https://www.linkedin.com/in/modisana-mosiuoa-04539069/"><span
-                  style="color:#D7192B">Modisana Mosiuoa</span></a></h5>
-            <p>Stakeholder Relations</p>
-            <div class="row share pt-2">
-            </div>
-          </div>
-        </div>
-        <div class="news-box my-4 text-center text-lg-left text-md-left">
-          <div class="img-box">
-            <img width="370" height="230"
-              src="https://8e16577f943c7b807b14-endpoint.azureedge.net/wpblob6cd46a522a/wp-content/uploads/2023/11/Picture38.jpg"
-              alt="Nthabiseng Shongwe" />
-          </div>
-          <div class="lower-new-box px-4 pt-3" style=" background-color: gray;">
-            <h5 class="post-title text-left"><a href="https://www.linkedin.com/in/nthabiseng-shongwe-313736a0/"><span
-                  style="color:#D7192B">Nthabiseng Shongwe</span></a>
-            </h5>
-            <p>Marketing and Partnerships</p>
-            <div class="row share pt-2">
-            </div>
-          </div>
+<!--Team section-->
+<section id="team" class="team" >
+  <div id="latest_news" class="py-0" style="background-color: #002147;">
+  <div class="container">
+    <h3 class="text-center" style="color: white;">Our Team</h3>
+    <hr class="first my-1 mx-auto">
+    <hr class="second my-1 mx-auto">
+    <p class="text-center w-50 my-0 mx-auto para" style="color: white;">Meet the TEACH South Africa Team</p>
+    <br>
+    <div class="owl-carousel">
+
+        <div class="member">
+          <img src="https://8e16577f943c7b807b14-endpoint.azureedge.net/wpblob6cd46a522a/wp-content/uploads/2023/11/Picture40.jpg" alt="">
+          <h4>Sedibeng Ngubane</h4>
+          <span>Chief Executive Officer</span>
+          <p>
+       </div>
+
+        <div class="member">
+          <img
+            src="https://8e16577f943c7b807b14-endpoint.azureedge.net/wpblob6cd46a522a/wp-content/uploads/2023/11/Picture41.jpg"
+            alt="">
+          <h4>Modisana Mosiuoa</h4>
+          <span>Stakeholder Relations</span>
+          <p>
         </div>
 
-        <div class="news-box my-4 text-center text-lg-left text-md-left">
-          <div class="img-box">
-            <img width="370" height="230"
-              src="https://8e16577f943c7b807b14-endpoint.azureedge.net/wpblob6cd46a522a/wp-content/uploads/2023/11/Picture36.jpg"
-              alt="Bridget Mukwevho" />
-          </div>
-          <div class="lower-new-box px-4 pt-3" style=" background-color: gray;">
-            <h5 class="post-title text-left"><a
-                href="https://www.linkedin.com/in/bridget-lissy-mukwevho-034a26251/"><span style="color:#D7192B">Bridget
-                  Mukwevho</span></a></h5>
-            <p>Communications and Alumni Network Coordinator</p>
-            <div class="row share pt-2">
-            </div>
-          </div>
+        <div class="member">
+          <img
+            src="https://8e16577f943c7b807b14-endpoint.azureedge.net/wpblob6cd46a522a/wp-content/uploads/2023/11/Picture38.jpg"
+            alt="">
+          <h4>Nthabiseng Shongwe</h4>
+          <span>Marketing and Partnerships</span>
+          <p>
         </div>
-        <div class="news-box my-4 text-center text-lg-left text-md-left">
-          <div class="img-box">
-            <img width="370" height="230"
-              src="https://8e16577f943c7b807b14-endpoint.azureedge.net/wpblob6cd46a522a/wp-content/uploads/2023/11/Picture37.jpg"
-              alt="Dibuseng Mutloung" />
-          </div>
-          <div class="lower-new-box px-4 pt-3" style=" background-color: gray;">
-            <h5 class="post-title text-left"><a href="#"><span style="color:#D7192B">Dibuseng Mutloung</span></a></h5>
-            <p>Finance Coordinator</p>
-            <div class="row share pt-2">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
-    </div>
-  </section>
 
-  <section id="education_donate" class="py-0">
+        <div class="member">
+          <img
+            src="https://8e16577f943c7b807b14-endpoint.azureedge.net/wpblob6cd46a522a/wp-content/uploads/2023/11/Picture36.jpg"
+            alt="">
+          <h4>Bridget Mukwevho</h4>
+          <span>Communications and Alumni Network Coordinator</span>
+          <p>
+        </div>
+
+        <div class="member">
+          <img
+            src="https://8e16577f943c7b807b14-endpoint.azureedge.net/wpblob6cd46a522a/wp-content/uploads/2023/11/Picture37.jpg"
+            alt="">
+          <h4>Dibuseng Mutloung</h4>
+          <span>Finance Coordinator</span>
+          <p>
+        </div>
+
+       </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="education_donate" class="py-0">
     <div class="container">
       <div class="educate-bg py-5 px-2">
         <h2 class="edu-head mb-2 text-center">Every bit counts, every child deserves quality education</h2>
@@ -819,9 +848,9 @@
                     <li id="menu-item-99"
                       class="literacy-program menu-item menu-item-type-custom menu-item-object-custom menu-item-99"><a
                         href="https://forms.office.com/r/Bj38aS8KLX">Alumni</a></li>
-                    <li id="menu-item-99"
+                    <!-- <li id="menu-item-99"
                       class="literacy-program menu-item menu-item-type-custom menu-item-object-custom menu-item-99"><a
-                        href="#">Latest News</a></li>
+                        href="#">Latest News</a></li> -->
                     <li id="menu-item-99"
                       class="literacy-program menu-item menu-item-type-custom menu-item-object-custom menu-item-99"><a
                         href="#">Upcoming Events</a></li>
